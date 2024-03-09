@@ -1,6 +1,6 @@
 function loadPage(page) {
     // Utiliza fetch para cargar el contenido del archivo HTML desde el servidor local
-    fetch(`pages/${page}.html`)
+    fetch(`../pages/${page}.html`)
         .then(response => response.text())
         .then(html => {
             // Obtén el contenedor de contenido
